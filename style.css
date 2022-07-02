@@ -1,0 +1,30 @@
+body{
+    background-color: yellowgreen;
+}
+h1{
+    color: red;
+    background-color: blue;
+}
+#show_draw{
+ float: right;
+}
+p{
+ padding-top: 23px;
+ font-size: medium;
+}
+canvas{
+    border-radius: 10px;
+    border:2px solid goldenrod;
+    animation-name: lighting;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lighting{
+    from{
+        box-shadow: 1px 1px 38px rgb(224, 184, 26);
+    }
+    to{
+        box-shadow: 1px 1px 38px rgb(128, 81, 237);
+    }
+}
